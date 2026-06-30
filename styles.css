@@ -93,6 +93,7 @@ ul {
     justify-content: center;
     gap: 8px;
     flex-direction: row;
+    padding-top: 96px;
 }
 
 .card {
@@ -121,9 +122,6 @@ ul {
     flex-direction: column;
 
     
-    
-    
-
 }
 
 .testimonial .tst {
@@ -145,5 +143,41 @@ ul {
     display: flex;
     justify-content: center;
     margin-left: 360px;
+    font-weight: bold;
 }
 
+
+.containerr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 255, 0.59);
+    max-width: 1000px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 36px 80px;
+    border-radius: 8px;
+    
+    
+    
+}
+
+.sgn {
+    color: white;
+    border: 1px solid white;
+    padding: 4px 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 255, 0.59);
+}
+
+.p-one {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.p-two {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+}
